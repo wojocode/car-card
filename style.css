@@ -6,14 +6,6 @@
     --transparent_white:/*paragraphs*/ hsla(0, 0%, 100%, 0.75);
     --very_light_gray:/*(background, headings, buttons)*/ hsl(0, 0%, 95%);
 }
-main{
-    width:100%;
-    height:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-}
 *{
     box-sizing: border-box;
     margin:0;
@@ -27,6 +19,14 @@ main{
 body{
     font-family: 'Lexend Deca', sans-serif;
     font-size:15px;
+}
+main{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
 }
 .card{
     max-width:260px;
@@ -60,6 +60,13 @@ h1{
     color:var(--transparent_white);
     margin-bottom:0;
 }
+.card .wrapper button{
+    display:block;
+    border-radius: 25px;
+    background:none;
+    border: none;
+    color:none;
+}
 .card .wrapper a{  
     display:block;
     padding:12px 20px;
@@ -70,7 +77,7 @@ h1{
     font-size: 13px;
     border-radius: 25px;
     border:1px solid transparent;
-    transition: all 0.2s ease-in;
+    transition: all 0.15s ease-in;
     margin-bottom:0;
 }
 .card .wrapper a:hover{
