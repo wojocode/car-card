@@ -60,13 +60,7 @@ h1{
     color:var(--transparent_white);
     margin-bottom:0;
 }
-.card .wrapper button{
-    display:block;
-    border-radius: 25px;
-    background:none;
-    border: none;
-    color:none;
-}
+
 .card .wrapper a{  
     display:block;
     padding:12px 20px;
